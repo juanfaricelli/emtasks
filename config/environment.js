@@ -5,6 +5,21 @@ module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'emtasks',
     environment,
+    // contentSecurityPolicy: {'connect-src': "'self' wss://*.firebaseio.com"},
+    contentSecurityPolicy: {
+      'script-src': "'self' 'unsafe-eval' apis.google.com",
+      'frame-src': "'self' https://*.firebaseapp.com",
+      'connect-src': "'self' wss://*.firebaseio.com https://*.googleapis.com"
+    },
+    // firebase: 'https://emtasks-tuto.firebaseio.com',
+    firebase: {
+      apiKey: "AIzaSyDh_eChIbh1ErblBdNSYcbCZsCFbjBkq5s",
+      authDomain: "emtasks-tuto.firebaseapp.com",
+      databaseURL: "https://emtasks-tuto.firebaseio.com",
+      projectId: "emtasks-tuto",
+      storageBucket: "emtasks-tuto.appspot.com",
+      messagingSenderId: "1072314843139"
+    },
     rootURL: '/',
     locationType: 'auto',
     EmberENV: {
