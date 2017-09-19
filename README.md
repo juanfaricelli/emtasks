@@ -1,9 +1,9 @@
 # emtasks
 
-Final App - https://github.com/bradtraversy/emtasks
-YT Video Tutorial - Part I - https://youtu.be/owDmPTSJkrg
-YT Video Tutorial - Part II - https://youtu.be/-gd6LRt7Dcg
-YT Video Tutorial - Part III - https://youtu.be/su1jfjD9TaU
+- Final App - https://github.com/bradtraversy/emtasks
+- YT Video Tutorial - Part I - https://youtu.be/owDmPTSJkrg
+- YT Video Tutorial - Part II - https://youtu.be/-gd6LRt7Dcg
+- YT Video Tutorial - Part III - https://youtu.be/su1jfjD9TaU
 
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
